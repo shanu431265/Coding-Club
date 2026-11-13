@@ -1,0 +1,99 @@
+/* For All */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+}
+
+/* 7.1 Navbar - Flexbox */
+.navbar {
+    background-color: #4f46e5;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.links button {
+    background-color: #ec4899;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+
+/* 7.2 Banner - Center with Flexbox */
+.banner {
+    background-color: #4f46e5;
+    color: white;
+    text-align: center;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner button {
+    background-color: #ec4899;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* 7.3 Cards - Flexbox + Wrap */
+.title {
+    text-align: center;
+    margin: 20px;
+    color: #4f46e5;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+
+    /* 7.3 This line is most important */
+    flex: 1 1 200px;
+}
+
+.card h3 {
+    color: #4f46e5;
+    margin-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px;
+}
