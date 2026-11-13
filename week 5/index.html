@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Coding Club - Invertis University | Himanshi</title>
+</head>
+<body>
+
+    <header>
+        <h1>Coding Club - Invertis University</h1>
+        <p>Learn | Code | Build | By Himanshi, B.Tech CSE 1st Year</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="register.html">Register</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Welcome to Coding Club!</h2>
+        <p>Hello! I am <strong>Himanshi</strong>. Yahan hum HTML, Java aur Web Development seekhte hai.</p>
+        <a href="register.html">Join Club Now</a>
+    </section>
+
+    <main>
+        <div class="card">
+            <h2>Upcoming Events</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Event Name</th>
+                        <th>Date</th>
+                        <th>Fees</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Basics Workshop</td>
+                        <td>15 Nov 2026</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Java Coding Contest</td>
+                        <td>22 Nov 2026</td>
+                        <td> 100</td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Making</td>
+                        <td>29 Nov 2026</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Total Events</strong></td>
+                        <td><strong>3 Events</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Student Registration Form</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="e.g. Himanshi" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="himanshi@example.com" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Create Password" required><br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="98765-43210"><br><br>
+
+                <p><strong>Gender:</strong></p>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br><br>
+
+                <p><strong>What do you want to learn?</strong></p>
+                <input type="checkbox" id="html" name="interest" value="HTML">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="java" name="interest" value="Java">
+                <label for="java">Java</label>
+                <input type="checkbox" id="css" name="interest" value="CSS">
+                <label for="css">CSS</label><br><br>
+
+                <label for="year">Your Year:</label><br>
+                <select id="year" name="year">
+                    <option value="">-- Select Year --</option>
+                    <option value="1st Year">1st Year</option>
+                    <option value="2nd Year">2nd Year</option>
+                    <option value="3rd Year">3rd Year</option>
+                    <option value="4th Year">4th Year</option>
+                </select><br><br>
+
+                <label for="message">Why do you want to join?</label><br>
+                <textarea id="message" name="message" rows="4" cols="35" placeholder="Write here..."></textarea><br><br>
+
+                <input type="submit" value="Register Now">
+                <input type="reset" value="Clear Form">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Coding Club | Made by Himanshi</p>
+    </footer>
+
+</body>
+</html>
